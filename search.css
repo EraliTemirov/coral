@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+li{
+    border-radius: 5px;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size:20px ;
+    border: 1px solid rgb(255, 255, 255) ;
+}
+.li:hover{
+    border-bottom: 1px solid rgb(89, 89, 248);
+    border-radius: 5px;
+    background-color: rgb(236, 232, 240);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.justifiyaroun{
+display: flex;
+justify-content: space-between;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    background-color: rgb(250, 250, 250) ;
+}
+.footer1{
+    width: 250px;
+}
+.foot{
+    font-size: 20px;
+}
+footer{
+    background-color: white;
+}
+span{
+    color: wheat;
+}
+.black{
+    background-color: black;
+}
+.blackk{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.asosiyy {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 15px;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.wrapper{
+    margin-left: 30px;
+   min-width:100px;
+   max-width: 200px;
+   
+}
+.asosiys{
+    height: 250px;
+    display: flex;
+}
+.asosiys:hover{
+    border-bottom: 0.1px solid red;
+}
+.asosiys:hover{
+    opacity: 1;
+}
+.salom{
+    position: absolute;
+    transform: translate(80px, 150px);
+    opacity: 1;
+}
+.masofa{
+    height: 100px;
+}
+.searchs{
+    position: sticky;
+    z-index: 100;
+    margin-top: 200px;
+    width: 1200px;
+    height: 42px;
+    margin: 0 auto;
+    transform: translate(-20px, -12px);
+    border: 2px solid rgb(117, 114, 114);
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.searchs:hover{
+    box-shadow: 2px 2px 10px  rgb(37, 22, 204);
+}
+.flexend{
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
